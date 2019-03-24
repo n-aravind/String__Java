@@ -22,6 +22,7 @@ public class Main {
 
         System.out.println(testString.endsWith("string"));
 
+        // GP: need to do what you did on line 29. Line 26 does no good.
         testString.concat(". This is concatenated to test String");
         System.out.println(testString);
 
